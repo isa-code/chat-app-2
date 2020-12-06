@@ -38,7 +38,12 @@
     margin-right: 6px;
   }
 
-  .status-online{
+  .status-online {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .status-offline {
     margin-top: 2px;
     margin-bottom: 2px;
   }
