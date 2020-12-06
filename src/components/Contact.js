@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css';
+import PropTypes from 'prop-types';
 
 function Contact(props) {
     return (
@@ -20,5 +21,11 @@ function Contact(props) {
 
     )
 }
+
+Contact.propTypes = {
+    avatar: PropTypes.string,
+    name: PropTypes.string,
+    Online: PropTypes.string
+  };
 
 export default Contact;
